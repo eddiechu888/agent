@@ -1,6 +1,6 @@
 # iPhone Notification Script
 
-Python script to send push notifications to your iPhone using Pushover.
+Python script to send push notifications to your iPhone using Pushover (30-day free trial).
 
 ## Setup
 
@@ -9,11 +9,16 @@ Python script to send push notifications to your iPhone using Pushover.
 pip install -r requirements.txt
 ```
 
-2. Install Pushover app on iPhone ($4.99)
+2. Install Pushover app on iPhone (free 30-day trial)
 
-3. Setup credentials:
+3. Get credentials from https://pushover.net:
+   - Sign up and get your User Key
+   - Create an app to get API Token
+
+4. Setup environment:
 ```bash
-python notify.py --setup
+cp .env.example .env
+# Edit .env with your credentials
 ```
 
 ## Usage

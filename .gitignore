@@ -1,0 +1,5 @@
+.env
+.notify_config
+__pycache__/
+*.pyc
+*.pyo
