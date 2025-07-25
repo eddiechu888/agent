@@ -5,24 +5,24 @@
 Use this command to notify the user when tasks complete:
 
 ```bash
-python ~/.local/bin/notify/notify.py "Your message here"
+python3 ~/.local/bin/notify/notify.py "Your message here"
 ```
 
 ## Examples
 
 **Task completion:**
 ```bash
-python ~/.local/bin/notify/notify.py "Build completed successfully ✅" -t "Build Status"
+python3 ~/.local/bin/notify/notify.py "Build completed successfully ✅" -t "Build Status"
 ```
 
 **Error notifications:**
 ```bash
-python ~/.local/bin/notify/notify.py "Build failed ❌" -t "Error" -p 1
+python3 ~/.local/bin/notify/notify.py "Build failed ❌" -t "Error" -p 1
 ```
 
 **Critical alerts:**
 ```bash
-python ~/.local/bin/notify/notify.py "Server down!" -t "CRITICAL" -p 2
+python3 ~/.local/bin/notify/notify.py "Server down!" -t "CRITICAL" -p 2
 ```
 
 ## When to Use
